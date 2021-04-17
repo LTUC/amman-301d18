@@ -1,0 +1,47 @@
+nav {
+  margin-top: 25px;
+}
+
+
+#logo {
+  float: left;
+  padding-bottom: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+#slogan {
+  width: 250px;
+  padding-left: 55px;
+  color: #a3a4a2;
+  font-family: 'Abel', sans-serif;
+  font-size: .65em;
+  text-transform: uppercase;
+}
+
+
+
+
+aside {
+  padding-top: 30px;
+  padding-bottom: 60px
+}
+
+
+.date {
+  float: left;
+}
+
+.print {
+  text-decoration: none;
+  padding-left: 30px;
+  float: right;
+}
+
+
+
+input {
+  font-family: 'Patrick Hand', cursive;
+}
