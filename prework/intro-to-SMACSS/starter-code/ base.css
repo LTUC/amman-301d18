@@ -1,0 +1,16 @@
+* {
+    font-family: times;
+  }
+  
+  body {
+    background: #fff;
+  }
+  
+nav, article, aside, footer section {
+    margin: 0 auto;
+    width: 900px;
+  }
+  
+input {
+    font-family: 'Patrick Hand', cursive;
+  }
