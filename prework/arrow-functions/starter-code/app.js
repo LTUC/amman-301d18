@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; 
 
 // STEP 1
 // This is a standard function expression. You may also be familiar with function declarations, which begin with the "function" keyword.
