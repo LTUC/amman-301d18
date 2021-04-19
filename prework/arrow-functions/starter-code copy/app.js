@@ -168,7 +168,7 @@ Student.prototype.greeting = function() {
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this method to break!
-console.log(joe.greeting());
+// console.log(joe.greeting());
 
 // TODO: After viewing the previous console.log(), return the code to a working state.
 
@@ -179,7 +179,7 @@ Student.courseName = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(Student.courseName());
+console.log(Student.courseName());
 
 
 
@@ -199,8 +199,8 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//  undefined
+//  undefine
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// undefined
+// undefine.
 // 3. Explain why "this" is different when an arrow function is used.
 // when we use "this" inside a prototype, it refers to the local scope, in the second case, it refers to the local scope ( the object that called it )
