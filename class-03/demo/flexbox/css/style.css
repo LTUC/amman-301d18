@@ -1,0 +1,78 @@
+* {
+  box-sizing:border-box;
+   /* The box-sizing property allows us to include
+  the padding and border in an element's total width and height. */
+}
+
+
+body {
+  /*flex by default goes as row*/
+  display:flex;
+  /* now we make it as column */
+  flex-direction:column; 
+}
+
+/* some design to header and footer */
+body > header, body > footer { /*to target the footer that is a child of the body*/
+  background:#444;
+  color: #eee;
+  height: 70px;
+  line-height:70px;
+}
+
+/* 
+header{
+  order:2;
+}
+footer{
+  order: 1;
+}
+main{
+  order: 3;
+}  */
+
+.card {
+  display:flex;
+  flex-direction:column;
+  width: 300px; /*or 25%*/
+}
+
+.card header {
+  order:1;
+}
+
+.card p {
+  order: 3
+}
+
+.card img {
+  order: 2;
+}
+
+.card .links {
+  order:4;
+  display:flex;
+  justify-content: space-between;
+  margin-top:10px;
+  
+}
+
+.primary {
+  order:2;
+  padding:.25em 1em;
+  background:blue;
+  color:ivory;
+}
+
+.secondary {
+  order:1
+}
+
+
+.deck {
+  /* to make all the cards in row */
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+}
+
