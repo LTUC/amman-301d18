@@ -2,7 +2,7 @@
 
 ## Overview
 
-Today's class will focus on jQuery selectors and events. jQuery is an excellent library for DOM traversal and manipulation. We will also go through examples of using jQuery to handle events. 
+Today's class will focus on jQuery selectors and events. jQuery is an excellent library for DOM traversal and manipulation. We will also go through examples of using jQuery to handle events.
 
 We will begin a lab assignment today which will carry over to the assignment for lab 3.
 
@@ -28,3 +28,21 @@ As a result of completing Lecture 2 of Code 301, students will:
 - Define each part of the M-V-C as it pertains to JavaScript
 - Understand proper `<script>` loading order in HTML
 - Understand how AJAX can be used to read a JSON file
+
+## Notes and Links
+
+Design Pattern
+
+Model - Usually an object which represents something
+
+View - Code that is responsible for what the user sees
+
+Controller - Responsible for getting the data from the model and rendering it to our view. Maybe also contain other business logic.
+
+[Jquery Templating Repl](https://replit.com/@dariothornhill/BuoyantPhysicalProgrammers#app.js)
+
+[Event Delegation](https://learn.jquery.com/events/event-delegation/)
+
+[Variables](https://docs.google.com/drawings/d/16SGcJQyq9Iyax1fVikF492qwDVAmmuBHBRrmR33NN_A/edit?usp=sharing)
+
+[Pass by value vs reference repl](https://replit.com/@dariothornhill/cc-02-prep#index.js)
