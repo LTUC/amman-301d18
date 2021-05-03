@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <%- include('./layout/header') %>
+    <main>
+        <section>
+            <h3>Title: <%=task.title %></h3>
+            <p>Description: <%=task.description %></p>
+            <p>Contact: <%=task.contact %></p>
+            <p>Status: <%=task.status %></p>
+            <p>Category: <%=task.category %></p>
+        </section>
+    </main>
+  </body>
+</html>

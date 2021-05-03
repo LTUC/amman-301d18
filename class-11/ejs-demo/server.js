@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 3000;
 const server = express();
 
 server.set('view engine','ejs');
+server.use(express.static('./public'));
 
 server.get('/',(req,res)=>{
     // res.send('ok');

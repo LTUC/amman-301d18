@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <%- include('./layout/header') %>
+    <main>
+        <section>
+          <form action="/addTask" method="POST">
+                <input type="text" name="title" placeholder="Task title">
+                <textarea name="description" cols="30" rows="10" placeholder="description"></textarea>
+                <input type="text" name="contact" placeholder="Task contact">
+                <input type="text" name="status" placeholder="Task status">
+                <input type="text" name="category" placeholder="Task category">
+                <button type="submit">Add Task</button>
+         </form>
+        </section>
+    </main>
+  </body>
+</html>
